@@ -8,6 +8,7 @@ description: >-
   agent should be called whenever code needs to be analyzed for errors,
   debugging is required, or bugs need to be fixed.
 mode: primary
+temperature: 0.2
 tools:
   task: false
   todowrite: false

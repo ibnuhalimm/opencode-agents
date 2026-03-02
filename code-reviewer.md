@@ -6,6 +6,7 @@ description: >-
   vulnerabilities, or performing code quality assessments on specific files or
   diffs.
 mode: primary
+temperature: 0.1
 tools:
   write: false
   edit: false
@@ -55,5 +56,6 @@ Present your review in a structured format:
 - **Major Issues**: Important problems that should be addressed
 - **Minor Issues**: Suggestions for improvement
 - **Positive Observations**: Good practices worth highlighting
+- **Highlight Code Changes**: Highlight code lines that need to change
 
 When unsure about context or requirements, ask clarifying questions rather than making assumptions. If the code is too complex to review in one pass, focus on the most impactful areas and note what wasn't covered.
